@@ -4,8 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Happy Birthday, Uzma ❤️</title>
-  <meta name="description" content="A romantic, dreamy, and heartfelt birthday experience created exclusively for Uzma." />
+  <title>Happy Birthday, Sadiya ❤️</title>
+  <meta name="description"
+    content="A romantic, dreamy, and heartfelt birthday experience created exclusively for Sadiya." />
 
   <!-- Google Fonts: Luxury Serif, Romantic Script & Clean Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -49,7 +50,7 @@
       --glass-card: rgba(255, 250, 252, 0.88);
       --glass-border: rgba(248, 187, 208, 0.65);
       --glass-border-hover: rgba(194, 24, 91, 0.45);
-      
+
       --shadow-soft: 0 10px 30px rgba(136, 14, 79, 0.08);
       --shadow-hover: 0 16px 45px rgba(194, 24, 91, 0.16);
       --shadow-glow: 0 0 35px rgba(229, 115, 153, 0.35);
@@ -73,7 +74,9 @@
     }
 
     /* ── Global Reset & Base ── */
-    *, *::before, *::after {
+    *,
+    *::before,
+    *::after {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
@@ -110,7 +113,7 @@
       pointer-events: none;
       z-index: 9999;
       background: radial-gradient(circle at 20% 30%, rgba(255, 255, 255, 0.25) 0%, transparent 40%),
-                  radial-gradient(circle at 80% 70%, rgba(248, 187, 208, 0.2) 0%, transparent 50%);
+        radial-gradient(circle at 80% 70%, rgba(248, 187, 208, 0.2) 0%, transparent 50%);
     }
 
     /* ── Layout Utilities ── */
@@ -202,8 +205,17 @@
     }
 
     @keyframes softHeartPulse {
-      0%, 100% { transform: scale(1); filter: drop-shadow(0 0 4px rgba(194, 24, 91, 0.3)); }
-      50% { transform: scale(1.18); filter: drop-shadow(0 0 10px rgba(194, 24, 91, 0.6)); }
+
+      0%,
+      100% {
+        transform: scale(1);
+        filter: drop-shadow(0 0 4px rgba(194, 24, 91, 0.3));
+      }
+
+      50% {
+        transform: scale(1.18);
+        filter: drop-shadow(0 0 10px rgba(194, 24, 91, 0.6));
+      }
     }
 
     /* ── Romantic Buttons ── */
@@ -249,7 +261,7 @@
       opacity: 1;
     }
 
-    .btn-romantic > span {
+    .btn-romantic>span {
       position: relative;
       z-index: 1;
     }
@@ -420,9 +432,22 @@
     }
 
     @keyframes pinShake {
-      0%, 100% { transform: translateX(0); }
-      15%, 55%, 85% { transform: translateX(-9px); }
-      35%, 70% { transform: translateX(9px); }
+
+      0%,
+      100% {
+        transform: translateX(0);
+      }
+
+      15%,
+      55%,
+      85% {
+        transform: translateX(-9px);
+      }
+
+      35%,
+      70% {
+        transform: translateX(9px);
+      }
     }
 
     .lock-feedback-msg {
@@ -499,10 +524,29 @@
       opacity: 0.75;
       pointer-events: none;
     }
-    .flower-corner-tl { top: 16px; left: 16px; }
-    .flower-corner-tr { top: 16px; right: 16px; transform: scaleX(-1); }
-    .flower-corner-bl { bottom: 16px; left: 16px; transform: scaleY(-1); }
-    .flower-corner-br { bottom: 16px; right: 16px; transform: scale(-1); }
+
+    .flower-corner-tl {
+      top: 16px;
+      left: 16px;
+    }
+
+    .flower-corner-tr {
+      top: 16px;
+      right: 16px;
+      transform: scaleX(-1);
+    }
+
+    .flower-corner-bl {
+      bottom: 16px;
+      left: 16px;
+      transform: scaleY(-1);
+    }
+
+    .flower-corner-br {
+      bottom: 16px;
+      right: 16px;
+      transform: scale(-1);
+    }
 
     /* Central Glowing Crimson Heart Visual */
     .hero-heart-container {
@@ -524,11 +568,30 @@
     }
 
     @keyframes heartPulseRhythm {
-      0% { transform: scale(1); filter: drop-shadow(0 0 15px rgba(194, 24, 91, 0.4)); }
-      14% { transform: scale(1.12); filter: drop-shadow(0 0 30px rgba(194, 24, 91, 0.75)); }
-      28% { transform: scale(1); filter: drop-shadow(0 0 15px rgba(194, 24, 91, 0.4)); }
-      42% { transform: scale(1.08); filter: drop-shadow(0 0 25px rgba(194, 24, 91, 0.6)); }
-      70% { transform: scale(1); filter: drop-shadow(0 0 15px rgba(194, 24, 91, 0.4)); }
+      0% {
+        transform: scale(1);
+        filter: drop-shadow(0 0 15px rgba(194, 24, 91, 0.4));
+      }
+
+      14% {
+        transform: scale(1.12);
+        filter: drop-shadow(0 0 30px rgba(194, 24, 91, 0.75));
+      }
+
+      28% {
+        transform: scale(1);
+        filter: drop-shadow(0 0 15px rgba(194, 24, 91, 0.4));
+      }
+
+      42% {
+        transform: scale(1.08);
+        filter: drop-shadow(0 0 25px rgba(194, 24, 91, 0.6));
+      }
+
+      70% {
+        transform: scale(1);
+        filter: drop-shadow(0 0 15px rgba(194, 24, 91, 0.4));
+      }
     }
 
     .heart-glow-ring {
@@ -541,8 +604,13 @@
     }
 
     @keyframes rotateRing {
-      from { transform: rotate(0deg); }
-      to { transform: rotate(360deg); }
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
     }
 
     .orbit-heart {
@@ -552,8 +620,13 @@
     }
 
     @keyframes orbitFloat {
-      0% { transform: rotate(0deg) translateX(55px) rotate(0deg); }
-      100% { transform: rotate(360deg) translateX(55px) rotate(-360deg); }
+      0% {
+        transform: rotate(0deg) translateX(55px) rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg) translateX(55px) rotate(-360deg);
+      }
     }
 
     .opening-heading {
@@ -642,8 +715,13 @@
     }
 
     @keyframes musicRotate {
-      0% { transform: rotate(-8deg) scale(1); }
-      100% { transform: rotate(8deg) scale(1.12); }
+      0% {
+        transform: rotate(-8deg) scale(1);
+      }
+
+      100% {
+        transform: rotate(8deg) scale(1.12);
+      }
     }
 
     .fab-tooltip {
@@ -717,7 +795,7 @@
     }
 
     /* ═══════════════════════════════════════════════════════════
-       SECTION 2: HAPPY BIRTHDAY, UZMA (HERO)
+       SECTION 2: HAPPY BIRTHDAY, SADIYA (HERO)
        ═══════════════════════════════════════════════════════════ */
     .hero {
       min-height: 100vh;
@@ -812,8 +890,17 @@
     }
 
     @keyframes bounceDown {
-      0%, 100% { transform: translateY(0); opacity: 0.6; }
-      50% { transform: translateY(8px); opacity: 1; }
+
+      0%,
+      100% {
+        transform: translateY(0);
+        opacity: 0.6;
+      }
+
+      50% {
+        transform: translateY(8px);
+        opacity: 1;
+      }
     }
 
     /* ═══════════════════════════════════════════════════════════
@@ -914,8 +1001,8 @@
       overflow: hidden;
       transform: translateY(24px) scale(0.98);
       transition: max-height 1s cubic-bezier(0.16, 1, 0.3, 1),
-                  opacity 0.75s ease,
-                  transform 0.75s cubic-bezier(0.16, 1, 0.3, 1);
+        opacity 0.75s ease,
+        transform 0.75s cubic-bezier(0.16, 1, 0.3, 1);
       pointer-events: none;
     }
 
@@ -1155,8 +1242,13 @@
       width: 80%;
     }
 
-    .env-slip-lines span:nth-child(2) { width: 95%; }
-    .env-slip-lines span:nth-child(3) { width: 65%; }
+    .env-slip-lines span:nth-child(2) {
+      width: 95%;
+    }
+
+    .env-slip-lines span:nth-child(3) {
+      width: 65%;
+    }
 
     /* Front Pocket Flaps */
     .env-front-left {
@@ -1195,10 +1287,26 @@
       pointer-events: none;
       filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.15));
     }
-    .flower-tl { top: 12px; left: 12px; }
-    .flower-tr { top: 12px; right: 12px; }
-    .flower-bl { bottom: 12px; left: 12px; }
-    .flower-br { bottom: 12px; right: 12px; }
+
+    .flower-tl {
+      top: 12px;
+      left: 12px;
+    }
+
+    .flower-tr {
+      top: 12px;
+      right: 12px;
+    }
+
+    .flower-bl {
+      bottom: 12px;
+      left: 12px;
+    }
+
+    .flower-br {
+      bottom: 12px;
+      right: 12px;
+    }
 
     .env-gold-sparkle {
       position: absolute;
@@ -1207,12 +1315,28 @@
       z-index: 7;
       animation: sparkleGlint 3s ease-in-out infinite alternate;
     }
-    .sp-1 { top: 22%; left: 18%; }
-    .sp-2 { bottom: 25%; right: 20%; animation-delay: -1.5s; }
+
+    .sp-1 {
+      top: 22%;
+      left: 18%;
+    }
+
+    .sp-2 {
+      bottom: 25%;
+      right: 20%;
+      animation-delay: -1.5s;
+    }
 
     @keyframes sparkleGlint {
-      0% { opacity: 0.3; transform: scale(0.8) rotate(0deg); }
-      100% { opacity: 0.95; transform: scale(1.2) rotate(15deg); }
+      0% {
+        opacity: 0.3;
+        transform: scale(0.8) rotate(0deg);
+      }
+
+      100% {
+        opacity: 0.95;
+        transform: scale(1.2) rotate(15deg);
+      }
     }
 
     /* 3D Folding Top Flap */
@@ -1297,8 +1421,15 @@
     }
 
     @keyframes waxPulseBoom {
-      0% { transform: translateX(-50%) scale(1); filter: drop-shadow(0 0 15px rgba(194, 24, 91, 0.5)); }
-      100% { transform: translateX(-50%) scale(1.22); filter: drop-shadow(0 0 32px rgba(194, 24, 91, 0.95)); }
+      0% {
+        transform: translateX(-50%) scale(1);
+        filter: drop-shadow(0 0 15px rgba(194, 24, 91, 0.5));
+      }
+
+      100% {
+        transform: translateX(-50%) scale(1.22);
+        filter: drop-shadow(0 0 32px rgba(194, 24, 91, 0.95));
+      }
     }
 
     .env-wax-heart.broken {
@@ -1354,10 +1485,12 @@
     .revealed-letter-parchment::-webkit-scrollbar {
       width: 6px;
     }
+
     .revealed-letter-parchment::-webkit-scrollbar-track {
       background: rgba(252, 228, 236, 0.4);
       border-radius: 4px;
     }
+
     .revealed-letter-parchment::-webkit-scrollbar-thumb {
       background: var(--dusty-pink);
       border-radius: 4px;
@@ -1429,20 +1562,45 @@
     .revealed-letter-display.active .letter-paragraph {
       animation: letterTextFadeIn 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) both;
     }
-    .revealed-letter-display.active .letter-paragraph:nth-child(1) { animation-delay: 0.15s; }
-    .revealed-letter-display.active .letter-paragraph:nth-child(2) { animation-delay: 0.3s; }
-    .revealed-letter-display.active .letter-paragraph:nth-child(3) { animation-delay: 0.45s; }
-    .revealed-letter-display.active .letter-paragraph:nth-child(4) { animation-delay: 0.6s; }
-    .revealed-letter-display.active .letter-paragraph:nth-child(5) { animation-delay: 0.75s; }
-    .revealed-letter-display.active .letter-paragraph:nth-child(6) { animation-delay: 0.9s; }
-    .revealed-letter-display.active .letter-paragraph:nth-child(7) { animation-delay: 1.05s; }
-    .revealed-letter-display.active .letter-paragraph:nth-child(8) { animation-delay: 1.2s; }
+
+    .revealed-letter-display.active .letter-paragraph:nth-child(1) {
+      animation-delay: 0.15s;
+    }
+
+    .revealed-letter-display.active .letter-paragraph:nth-child(2) {
+      animation-delay: 0.3s;
+    }
+
+    .revealed-letter-display.active .letter-paragraph:nth-child(3) {
+      animation-delay: 0.45s;
+    }
+
+    .revealed-letter-display.active .letter-paragraph:nth-child(4) {
+      animation-delay: 0.6s;
+    }
+
+    .revealed-letter-display.active .letter-paragraph:nth-child(5) {
+      animation-delay: 0.75s;
+    }
+
+    .revealed-letter-display.active .letter-paragraph:nth-child(6) {
+      animation-delay: 0.9s;
+    }
+
+    .revealed-letter-display.active .letter-paragraph:nth-child(7) {
+      animation-delay: 1.05s;
+    }
+
+    .revealed-letter-display.active .letter-paragraph:nth-child(8) {
+      animation-delay: 1.2s;
+    }
 
     @keyframes letterTextFadeIn {
       from {
         opacity: 0;
         transform: translateY(14px);
       }
+
       to {
         opacity: 1;
         transform: translateY(0);
@@ -1504,11 +1662,11 @@
       bottom: 0;
       left: 28px;
       width: 2px;
-      background: linear-gradient(180deg, 
-        transparent 0%, 
-        var(--rose-accent) 15%, 
-        var(--crimson-red) 85%, 
-        transparent 100%);
+      background: linear-gradient(180deg,
+          transparent 0%,
+          var(--rose-accent) 15%,
+          var(--crimson-red) 85%,
+          transparent 100%);
       opacity: 0.5;
     }
 
@@ -1530,11 +1688,13 @@
       .wish-node {
         width: 50%;
       }
+
       .wish-node:nth-child(odd) {
         margin-left: 0;
         padding-right: 3rem;
         justify-content: flex-end;
       }
+
       .wish-node:nth-child(even) {
         margin-left: 50%;
         padding-left: 3rem;
@@ -1568,6 +1728,7 @@
       .wish-node:nth-child(odd) .wish-marker {
         right: -19px;
       }
+
       .wish-node:nth-child(even) .wish-marker {
         left: -19px;
       }
@@ -1763,6 +1924,7 @@
       .love-cards-grid {
         grid-template-columns: 1fr 1fr;
       }
+
       .love-card-3-wrap {
         grid-column: 1 / -1;
       }
@@ -1838,13 +2000,34 @@
       opacity: 0.45;
       animation: floatBubble 5s ease-in-out infinite alternate;
     }
-    .bh-1 { top: 15%; left: 15%; animation-delay: 0s; }
-    .bh-2 { bottom: 20%; right: 18%; animation-delay: -2s; }
-    .bh-3 { top: 60%; left: 10%; animation-delay: -3.5s; font-size: 0.75rem; }
+
+    .bh-1 {
+      top: 15%;
+      left: 15%;
+      animation-delay: 0s;
+    }
+
+    .bh-2 {
+      bottom: 20%;
+      right: 18%;
+      animation-delay: -2s;
+    }
+
+    .bh-3 {
+      top: 60%;
+      left: 10%;
+      animation-delay: -3.5s;
+      font-size: 0.75rem;
+    }
 
     @keyframes floatBubble {
-      0% { transform: translateY(0) scale(1); }
-      100% { transform: translateY(-16px) scale(1.15); }
+      0% {
+        transform: translateY(0) scale(1);
+      }
+
+      100% {
+        transform: translateY(-16px) scale(1.15);
+      }
     }
 
     .card-1-center-heart {
@@ -1961,6 +2144,7 @@
       filter: drop-shadow(0 0 14px rgba(194, 24, 91, 0.5));
       animation: softHeartPulse 2.4s ease-in-out infinite;
     }
+
     .card-2-heart-icon:nth-child(2) {
       animation-delay: -1.2s;
     }
@@ -2045,10 +2229,12 @@
     .card-3-revealed-panel::-webkit-scrollbar {
       width: 6px;
     }
+
     .card-3-revealed-panel::-webkit-scrollbar-track {
       background: rgba(252, 228, 236, 0.4);
       border-radius: 4px;
     }
+
     .card-3-revealed-panel::-webkit-scrollbar-thumb {
       background: var(--dusty-pink);
       border-radius: 4px;
@@ -2069,8 +2255,15 @@
     }
 
     @keyframes letterPanelFadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
 
     .card-3-paragraphs {
@@ -2188,7 +2381,10 @@
        ACCESSIBILITY (REDUCED MOTION)
        ═══════════════════════════════════════════════════════════ */
     @media (prefers-reduced-motion: reduce) {
-      *, *::before, *::after {
+
+      *,
+      *::before,
+      *::after {
         animation-duration: 0.01ms !important;
         animation-iteration-count: 1 !important;
         transition-duration: 0.01ms !important;
@@ -2206,13 +2402,17 @@
   <svg style="display:none;" xmlns="http://www.w3.org/2000/svg">
     <!-- Heart Symbol -->
     <symbol id="icon-heart" viewBox="0 0 24 24">
-      <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="currentColor" />
+      <path
+        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+        fill="currentColor" />
     </symbol>
 
     <!-- Delicate Rose / Flower Corner Accent -->
     <symbol id="icon-rose-corner" viewBox="0 0 100 100">
-      <path d="M20 20 C 35 10, 65 15, 75 35 C 85 55, 75 75, 55 80 C 35 85, 15 65, 20 45 Z" fill="none" stroke="currentColor" stroke-width="2.5" />
-      <path d="M30 30 C 40 22, 60 25, 65 40 C 70 55, 60 68, 48 70 C 35 72, 25 60, 30 45 Z" fill="currentColor" opacity="0.3" />
+      <path d="M20 20 C 35 10, 65 15, 75 35 C 85 55, 75 75, 55 80 C 35 85, 15 65, 20 45 Z" fill="none"
+        stroke="currentColor" stroke-width="2.5" />
+      <path d="M30 30 C 40 22, 60 25, 65 40 C 70 55, 60 68, 48 70 C 35 72, 25 60, 30 45 Z" fill="currentColor"
+        opacity="0.3" />
       <circle cx="48" cy="46" r="8" fill="currentColor" opacity="0.75" />
       <path d="M55 20 Q 75 5 90 20 Q 75 35 55 20 Z" fill="currentColor" opacity="0.5" />
       <path d="M20 55 Q 5 75 20 90 Q 35 75 20 55 Z" fill="currentColor" opacity="0.5" />
@@ -2220,7 +2420,8 @@
 
     <!-- Music Note Symbol -->
     <symbol id="icon-music" viewBox="0 0 24 24">
-      <path d="M9 18V5l12-2v13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M9 18V5l12-2v13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+        stroke-linejoin="round" />
       <circle cx="6" cy="18" r="3" fill="currentColor" />
       <circle cx="18" cy="16" r="3" fill="currentColor" />
     </symbol>
@@ -2232,17 +2433,26 @@
   <div id="password-screen" role="dialog" aria-modal="true" aria-label="Enter passcode to unlock">
     <div class="lock-card">
       <!-- Decorative Flower Corner Accents -->
-      <svg class="flower-corner flower-corner-tl" aria-hidden="true"><use href="#icon-rose-corner" /></svg>
-      <svg class="flower-corner flower-corner-tr" aria-hidden="true"><use href="#icon-rose-corner" /></svg>
-      <svg class="flower-corner flower-corner-bl" aria-hidden="true"><use href="#icon-rose-corner" /></svg>
-      <svg class="flower-corner flower-corner-br" aria-hidden="true"><use href="#icon-rose-corner" /></svg>
+      <svg class="flower-corner flower-corner-tl" aria-hidden="true">
+        <use href="#icon-rose-corner" />
+      </svg>
+      <svg class="flower-corner flower-corner-tr" aria-hidden="true">
+        <use href="#icon-rose-corner" />
+      </svg>
+      <svg class="flower-corner flower-corner-bl" aria-hidden="true">
+        <use href="#icon-rose-corner" />
+      </svg>
+      <svg class="flower-corner flower-corner-br" aria-hidden="true">
+        <use href="#icon-rose-corner" />
+      </svg>
 
       <!-- Glowing Heart Badge -->
       <div class="lock-icon-container" aria-hidden="true">
         <div class="lock-glow-ring"></div>
         <div class="lock-heart-badge">
           <svg viewBox="0 0 24 24" class="lock-heart-svg">
-            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+            <path
+              d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
           </svg>
           <span class="lock-status-icon" id="lock-status-icon">🔒</span>
         </div>
@@ -2251,15 +2461,19 @@
       <p class="section-eyebrow">A Birthday Surprise</p>
       <h2 class="lock-title">Enter Password</h2>
       <p class="lock-subtitle">hint: mere phone number ka last 4 digits</p>
-      <p class="lock-subtitle">This little world is locked with love for Uzma.</p>
-      <p class="lock-subtitle">Yaar password nhi lagata per mai chahata hu bas uzma open kre.</p>
+      <p class="lock-subtitle">This little world is locked with love for Sadiya.</p>
+      <p class="lock-subtitle">Yaar password nhi lagata per mai chahata hu bas Sadiya open kre.</p>
 
       <form id="passcode-form" class="lock-form" onsubmit="return false;" autocomplete="off">
         <div class="pin-inputs-wrap" id="pin-inputs-wrap">
-          <input type="password" inputmode="numeric" pattern="[0-9]*" maxlength="1" class="pin-box" id="pin-0" data-idx="0" aria-label="Passcode digit 1" autocomplete="one-time-code" autofocus />
-          <input type="password" inputmode="numeric" pattern="[0-9]*" maxlength="1" class="pin-box" id="pin-1" data-idx="1" aria-label="Passcode digit 2" />
-          <input type="password" inputmode="numeric" pattern="[0-9]*" maxlength="1" class="pin-box" id="pin-2" data-idx="2" aria-label="Passcode digit 3" />
-          <input type="password" inputmode="numeric" pattern="[0-9]*" maxlength="1" class="pin-box" id="pin-3" data-idx="3" aria-label="Passcode digit 4" />
+          <input type="password" inputmode="numeric" pattern="[0-9]*" maxlength="1" class="pin-box" id="pin-0"
+            data-idx="0" aria-label="Passcode digit 1" autocomplete="one-time-code" autofocus />
+          <input type="password" inputmode="numeric" pattern="[0-9]*" maxlength="1" class="pin-box" id="pin-1"
+            data-idx="1" aria-label="Passcode digit 2" />
+          <input type="password" inputmode="numeric" pattern="[0-9]*" maxlength="1" class="pin-box" id="pin-2"
+            data-idx="2" aria-label="Passcode digit 3" />
+          <input type="password" inputmode="numeric" pattern="[0-9]*" maxlength="1" class="pin-box" id="pin-3"
+            data-idx="3" aria-label="Passcode digit 4" />
         </div>
         <div class="lock-feedback-msg" id="lock-feedback-msg" aria-live="polite"></div>
         <button type="submit" id="btn-unlock-site" class="btn-romantic lock-submit-btn">
@@ -2272,28 +2486,38 @@
   <!-- ═══════════════════════════════════════════════════════════
        SECTION 1: THE MAGICAL OPENING (FULL-SCREEN GATEWAY)
        ═══════════════════════════════════════════════════════════ -->
-  <div id="opening" role="dialog" aria-modal="true" aria-label="A romantic birthday surprise for Uzma">
+  <div id="opening" role="dialog" aria-modal="true" aria-label="A romantic birthday surprise for Sadiya">
     <!-- Interactive romantic canvas with floating heart bubbles, rose petals & stars -->
     <canvas id="opening-canvas"></canvas>
 
     <div class="opening-card">
       <!-- Delicate Corner Flower Accents -->
-      <svg class="flower-corner flower-corner-tl"><use href="#icon-rose-corner" /></svg>
-      <svg class="flower-corner flower-corner-tr"><use href="#icon-rose-corner" /></svg>
-      <svg class="flower-corner flower-corner-bl"><use href="#icon-rose-corner" /></svg>
-      <svg class="flower-corner flower-corner-br"><use href="#icon-rose-corner" /></svg>
+      <svg class="flower-corner flower-corner-tl">
+        <use href="#icon-rose-corner" />
+      </svg>
+      <svg class="flower-corner flower-corner-tr">
+        <use href="#icon-rose-corner" />
+      </svg>
+      <svg class="flower-corner flower-corner-bl">
+        <use href="#icon-rose-corner" />
+      </svg>
+      <svg class="flower-corner flower-corner-br">
+        <use href="#icon-rose-corner" />
+      </svg>
 
       <!-- Central Glowing Crimson Heart with Orbiting Hearts -->
       <div class="hero-heart-container" aria-hidden="true">
         <div class="heart-glow-ring"></div>
         <span class="orbit-heart" style="top:0;left:0;">🌸</span>
         <span class="orbit-heart" style="bottom:0;right:0;animation-delay:-4s;">💗</span>
-        <svg class="hero-glowing-heart"><use href="#icon-heart" /></svg>
+        <svg class="hero-glowing-heart">
+          <use href="#icon-heart" />
+        </svg>
       </div>
 
       <!-- Main Heading Required by Prompt -->
       <h1 class="opening-heading">
-        A wish inspired by arts on the birthday of an Artist(Mehndi artist😅)
+        A wish inspired by engineering on the birthday of a future IITIAN
       </h1>
 
       <!-- Subtitle Required by Prompt -->
@@ -2319,16 +2543,19 @@
        ═══════════════════════════════════════════════════════════ -->
   <!-- Bottom-Left Music FAB -->
   <div class="fab-music-container">
-    <button id="fab-music" class="fab fab-music" aria-label="Toggle romantic ambient music" title="Toggle romantic melody">
+    <button id="fab-music" class="fab fab-music" aria-label="Toggle romantic ambient music"
+      title="Toggle romantic melody">
       <!-- Muted Icon -->
-      <svg class="icon-off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg class="icon-off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round">
         <path d="M9 18V5l12-2v13" />
         <circle cx="6" cy="18" r="3" />
         <circle cx="18" cy="16" r="3" />
         <line x1="2" y1="2" x2="22" y2="22" stroke-width="2.5" />
       </svg>
       <!-- Playing Icon -->
-      <svg class="icon-on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;">
+      <svg class="icon-on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+        stroke-linejoin="round" style="display:none;">
         <path d="M9 18V5l12-2v13" />
         <circle cx="6" cy="18" r="3" />
         <circle cx="18" cy="16" r="3" />
@@ -2345,7 +2572,8 @@
   <!-- Bottom-Right Back To Top FAB -->
   <div class="fab-top-container">
     <button id="fab-top" class="fab fab-top" aria-label="Back to top" title="Back to top">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+        stroke-linejoin="round">
         <polyline points="18 15 12 9 6 15" />
       </svg>
       <span class="fab-tooltip">Back to Top</span>
@@ -2360,7 +2588,7 @@
     <canvas id="ambient-canvas"></canvas>
 
     <!-- ─────────────────────────────────────────────────────────
-         SECTION 2: HAPPY BIRTHDAY, UZMA (HERO)
+         SECTION 2: HAPPY BIRTHDAY, SADIYA (HERO)
          ───────────────────────────────────────────────────────── -->
     <section id="hero" class="section hero">
       <div class="container">
@@ -2369,7 +2597,7 @@
 
           <h1 class="hero-greeting reveal-elem">
             Happy Birthday,
-            <span class="hero-name-script">Uzma</span>
+            <span class="hero-name-script">Sadiya</span>
           </h1>
 
           <div class="romantic-divider reveal-elem" aria-hidden="true">
@@ -2385,7 +2613,8 @@
 
           <a href="#letter-section" class="hero-scroll-cue reveal-elem" aria-label="Scroll to discover">
             <span>Scroll to read the letter</span>
-            <svg class="hero-arrow-anim" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg class="hero-arrow-anim" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
               <polyline points="6 9 12 15 18 9" />
             </svg>
           </a>
@@ -2411,13 +2640,14 @@
         <div class="envelope-cinematic-stage">
           <!-- 3D Pink Envelope Container -->
           <div class="envelope-3d-wrapper" id="envelope-3d-wrapper">
-            <div class="envelope-3d-box" id="envelope-3d-box" role="button" tabindex="0" aria-label="Tap the heart to open your letter">
+            <div class="envelope-3d-box" id="envelope-3d-box" role="button" tabindex="0"
+              aria-label="Tap the heart to open your letter">
               <!-- Envelope Back Paper -->
               <div class="env-back-panel"></div>
 
               <!-- Inner Cream Letter Slip (slides out gracefully) -->
               <div class="env-inner-slip" id="env-inner-slip">
-                <div class="env-slip-header">To Uzma ♡</div>
+                <div class="env-slip-header">To Sadiya ♡</div>
                 <div class="env-slip-lines">
                   <span></span><span></span><span></span>
                 </div>
@@ -2445,7 +2675,8 @@
               <div class="env-wax-heart" id="env-wax-heart" title="Tap the heart to open your letter">
                 <div class="wax-heart-inner">
                   <svg viewBox="0 0 24 24" class="wax-heart-svg">
-                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                    <path
+                      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
                   </svg>
                   <span class="wax-heart-glint"></span>
                 </div>
@@ -2462,13 +2693,21 @@
           <div class="revealed-letter-display" id="revealed-letter-display" aria-hidden="true">
             <article class="revealed-letter-parchment" id="revealed-letter-parchment">
               <!-- Corner Flower Accents on Letter -->
-              <svg class="flower-corner flower-corner-tl" aria-hidden="true"><use href="#icon-rose-corner" /></svg>
-              <svg class="flower-corner flower-corner-tr" aria-hidden="true"><use href="#icon-rose-corner" /></svg>
-              <svg class="flower-corner flower-corner-bl" aria-hidden="true"><use href="#icon-rose-corner" /></svg>
-              <svg class="flower-corner flower-corner-br" aria-hidden="true"><use href="#icon-rose-corner" /></svg>
+              <svg class="flower-corner flower-corner-tl" aria-hidden="true">
+                <use href="#icon-rose-corner" />
+              </svg>
+              <svg class="flower-corner flower-corner-tr" aria-hidden="true">
+                <use href="#icon-rose-corner" />
+              </svg>
+              <svg class="flower-corner flower-corner-bl" aria-hidden="true">
+                <use href="#icon-rose-corner" />
+              </svg>
+              <svg class="flower-corner flower-corner-br" aria-hidden="true">
+                <use href="#icon-rose-corner" />
+              </svg>
 
               <!-- Salutation Required by Prompt -->
-              <div class="letter-salutation-line">To Uzma,</div>
+              <div class="letter-salutation-line">To Sadiya,</div>
 
               <!-- Gradual Flowing Letter Content Required by Prompt -->
               <div class="letter-text-flow" id="letter-text-flow">
@@ -2485,8 +2724,10 @@
                 </p>
 
                 <p class="letter-paragraph">
-                  I hope your days are filled with happiness, your heart finds peace, and all those little dreams you carry quietly come true.
-                  ❤️ I just wish ki tumhari life hamesha happiness, peace aur endless smiles se bhari rahe. Tumhare dil mein jo bhi chhote-bade dreams hain, I hope woh sab ek din beautifully true ho jaayein.
+                  I hope your days are filled with happiness, your heart finds peace, and all those little dreams you
+                  carry quietly come true.
+                  ❤️ I just wish ki tumhari life hamesha happiness, peace aur endless smiles se bhari rahe. Tumhare dil
+                  mein jo bhi chhote-bade dreams hain, I hope woh sab ek din beautifully true ho jaayein.
                 </p>
 
                 <p class="letter-paragraph">
@@ -2498,7 +2739,7 @@
                 </div>
 
                 <p class="letter-paragraph letter-birthday-title">
-                  Happy Birthday once againnnn, Uzma.
+                  Happy Birthday once againnnn, Sadiya.
                 </p>
 
                 <p class="letter-paragraph letter-final-quote">
@@ -2617,7 +2858,9 @@
           <div class="unsaid-card reveal-elem" tabindex="0" role="button" aria-label="Flip card 1 to reveal message">
             <div class="unsaid-card-inner">
               <div class="unsaid-front">
-                <svg class="unsaid-front-heart"><use href="#icon-heart" /></svg>
+                <svg class="unsaid-front-heart">
+                  <use href="#icon-heart" />
+                </svg>
                 <span class="unsaid-front-label">Memory I</span>
                 <span class="unsaid-front-cue">Tap to open</span>
               </div>
@@ -2632,7 +2875,9 @@
           <div class="unsaid-card reveal-elem" tabindex="0" role="button" aria-label="Flip card 2 to reveal message">
             <div class="unsaid-card-inner">
               <div class="unsaid-front">
-                <svg class="unsaid-front-heart"><use href="#icon-heart" /></svg>
+                <svg class="unsaid-front-heart">
+                  <use href="#icon-heart" />
+                </svg>
                 <span class="unsaid-front-label">Memory II</span>
                 <span class="unsaid-front-cue">Tap to open</span>
               </div>
@@ -2647,7 +2892,9 @@
           <div class="unsaid-card reveal-elem" tabindex="0" role="button" aria-label="Flip card 3 to reveal message">
             <div class="unsaid-card-inner">
               <div class="unsaid-front">
-                <svg class="unsaid-front-heart"><use href="#icon-heart" /></svg>
+                <svg class="unsaid-front-heart">
+                  <use href="#icon-heart" />
+                </svg>
                 <span class="unsaid-front-label">Memory III</span>
                 <span class="unsaid-front-cue">Tap to open</span>
               </div>
@@ -2662,7 +2909,9 @@
           <div class="unsaid-card reveal-elem" tabindex="0" role="button" aria-label="Flip card 4 to reveal message">
             <div class="unsaid-card-inner">
               <div class="unsaid-front">
-                <svg class="unsaid-front-heart"><use href="#icon-heart" /></svg>
+                <svg class="unsaid-front-heart">
+                  <use href="#icon-heart" />
+                </svg>
                 <span class="unsaid-front-label">Memory IV</span>
                 <span class="unsaid-front-cue">Tap to open</span>
               </div>
@@ -2677,7 +2926,9 @@
           <div class="unsaid-card reveal-elem" tabindex="0" role="button" aria-label="Flip card 5 to reveal message">
             <div class="unsaid-card-inner">
               <div class="unsaid-front">
-                <svg class="unsaid-front-heart"><use href="#icon-heart" /></svg>
+                <svg class="unsaid-front-heart">
+                  <use href="#icon-heart" />
+                </svg>
                 <span class="unsaid-front-label">Memory V</span>
                 <span class="unsaid-front-cue">Tap to open</span>
               </div>
@@ -2692,12 +2943,15 @@
           <div class="unsaid-card reveal-elem" tabindex="0" role="button" aria-label="Flip card 6 to reveal message">
             <div class="unsaid-card-inner">
               <div class="unsaid-front">
-                <svg class="unsaid-front-heart"><use href="#icon-heart" /></svg>
+                <svg class="unsaid-front-heart">
+                  <use href="#icon-heart" />
+                </svg>
                 <span class="unsaid-front-label">Memory VI</span>
                 <span class="unsaid-front-cue">Tap to open</span>
               </div>
               <div class="unsaid-back">
-                <p class="unsaid-back-text">"Some wishes don't need anything in return. They are simply meant to be given."</p>
+                <p class="unsaid-back-text">"Some wishes don't need anything in return. They are simply meant to be
+                  given."</p>
                 <span class="unsaid-back-sparkle">🌸</span>
               </div>
             </div>
@@ -2717,47 +2971,67 @@
 
         <div class="love-cards-grid">
           <!-- CARD 1 -->
-          <div class="love-card love-card-1 reveal-elem" id="love-card-1" role="button" tabindex="0" aria-label="Open Card 1">
+          <div class="love-card love-card-1 reveal-elem" id="love-card-1" role="button" tabindex="0"
+            aria-label="Open Card 1">
             <button class="love-card-close-btn" aria-label="Close card">✕</button>
             <div class="card-1-bubbles" aria-hidden="true">
               <span class="bubble-heart bh-1">💗</span>
               <span class="bubble-heart bh-2">🤍</span>
               <span class="bubble-heart bh-3">🌸</span>
             </div>
-            
+
             <!-- Preview Cover -->
             <div class="card-1-preview">
-              <svg class="card-1-center-heart" aria-hidden="true"><use href="#icon-heart" /></svg>
+              <svg class="card-1-center-heart" aria-hidden="true">
+                <use href="#icon-heart" />
+              </svg>
               <span class="card-1-cue">Tap to open ♡</span>
             </div>
 
             <!-- Revealed Content -->
             <div class="card-1-revealed-content">
-              <svg class="card-1-center-heart" style="width:48px;height:48px;margin-bottom:1rem;" aria-hidden="true"><use href="#icon-heart" /></svg>
-              <p class="love-card-1-text">if a million loved you, I am one of them<br />andif one loved you it was me. <br />if no one loved you then know that I am dead</p>
+              <svg class="card-1-center-heart" style="width:48px;height:48px;margin-bottom:1rem;" aria-hidden="true">
+                <use href="#icon-heart" />
+              </svg>
+              <p class="love-card-1-text">if a million loved you, I am one of them<br />andif one loved you it was me.
+                <br />if no one loved you then know that I am dead</p>
             </div>
           </div>
 
           <!-- CARD 2 -->
-          <div class="love-card love-card-2 reveal-elem" id="love-card-2" role="button" tabindex="0" aria-label="Open Card 2">
+          <div class="love-card love-card-2 reveal-elem" id="love-card-2" role="button" tabindex="0"
+            aria-label="Open Card 2">
             <button class="love-card-close-btn" aria-label="Close card">✕</button>
             <div class="card-2-inner">
               <!-- Front Face (Floral Pink Background with 2 Glowing Hearts) -->
               <div class="card-2-front">
-                <svg class="flower-corner flower-corner-tl" aria-hidden="true"><use href="#icon-rose-corner" /></svg>
-                <svg class="flower-corner flower-corner-br" aria-hidden="true"><use href="#icon-rose-corner" /></svg>
+                <svg class="flower-corner flower-corner-tl" aria-hidden="true">
+                  <use href="#icon-rose-corner" />
+                </svg>
+                <svg class="flower-corner flower-corner-br" aria-hidden="true">
+                  <use href="#icon-rose-corner" />
+                </svg>
                 <div class="card-2-twin-hearts" aria-hidden="true">
-                  <svg class="card-2-heart-icon"><use href="#icon-heart" /></svg>
-                  <svg class="card-2-heart-icon"><use href="#icon-heart" /></svg>
+                  <svg class="card-2-heart-icon">
+                    <use href="#icon-heart" />
+                  </svg>
+                  <svg class="card-2-heart-icon">
+                    <use href="#icon-heart" />
+                  </svg>
                 </div>
                 <span class="card-1-cue">Tap to open ♡</span>
               </div>
 
               <!-- Back Face (Revealed Content) -->
               <div class="card-2-back">
-                <svg class="flower-corner flower-corner-tr" aria-hidden="true"><use href="#icon-rose-corner" /></svg>
-                <svg class="flower-corner flower-corner-bl" aria-hidden="true"><use href="#icon-rose-corner" /></svg>
-                <p class="love-card-2-text">Even if there are hunders of angle in front of me , you will be the one I will chose instead of them...</p>
+                <svg class="flower-corner flower-corner-tr" aria-hidden="true">
+                  <use href="#icon-rose-corner" />
+                </svg>
+                <svg class="flower-corner flower-corner-bl" aria-hidden="true">
+                  <use href="#icon-rose-corner" />
+                </svg>
+                <p class="love-card-2-text">Even if there are hunders of angle in front of me , you will be the one I
+                  will chose instead of them...</p>
               </div>
             </div>
           </div>
@@ -2769,25 +3043,48 @@
 
               <!-- Preview Cover -->
               <div class="card-3-preview-cover">
-                <svg class="card-3-preview-heart" aria-hidden="true"><use href="#icon-heart" /></svg>
-                <span class="card-3-preview-cue">A Letter For You &bull; Pls yarr gussa mat hona yrr mai jo feel kiya wi likha hu ♡</span>
+                <svg class="card-3-preview-heart" aria-hidden="true">
+                  <use href="#icon-heart" />
+                </svg>
+                <span class="card-3-preview-cue">A Letter For You &bull; Pls yarr gussa mat hona yrr mai jo feel kiya wi
+                  likha hu ♡</span>
               </div>
 
               <!-- Revealed Large Letter-Style Panel -->
               <div class="card-3-revealed-panel">
-                <svg class="flower-corner flower-corner-tl" aria-hidden="true"><use href="#icon-rose-corner" /></svg>
-                <svg class="flower-corner flower-corner-tr" aria-hidden="true"><use href="#icon-rose-corner" /></svg>
-                <svg class="flower-corner flower-corner-bl" aria-hidden="true"><use href="#icon-rose-corner" /></svg>
-                <svg class="flower-corner flower-corner-br" aria-hidden="true"><use href="#icon-rose-corner" /></svg>
+                <svg class="flower-corner flower-corner-tl" aria-hidden="true">
+                  <use href="#icon-rose-corner" />
+                </svg>
+                <svg class="flower-corner flower-corner-tr" aria-hidden="true">
+                  <use href="#icon-rose-corner" />
+                </svg>
+                <svg class="flower-corner flower-corner-bl" aria-hidden="true">
+                  <use href="#icon-rose-corner" />
+                </svg>
+                <svg class="flower-corner flower-corner-br" aria-hidden="true">
+                  <use href="#icon-rose-corner" />
+                </svg>
 
                 <div class="card-3-paragraphs">
-                  <p class="card-3-p">Main apna best of best dunga tumhe pane ke liye, sirf is umeed mein ki ek din tum meri ho jaogi. Tumhe pane ke liy ke liye agar mujhe kisi ke saamne jhukna bhi pade, paaer bhi pakarna pre wo bhi kubool hai. Kyunki tum mere liye sirf ek khwahish nahi, balki woh dua ho jise maine apne dil ki har dhadkan mein basa rakha hai.</p>
+                  <p class="card-3-p">Main apna best of best dunga tumhe pane ke liye, sirf is umeed mein ki ek din tum
+                    meri ho jaogi. Tumhe pane ke liy ke liye agar mujhe kisi ke saamne jhukna bhi pade, paaer bhi
+                    pakarna pre wo bhi kubool hai. Kyunki tum mere liye sirf ek khwahish nahi, balki woh dua ho jise
+                    maine apne dil ki har dhadkan mein basa rakha hai.</p>
 
-                  <p class="card-3-p">Lekin agar itni koshishon, itni duaon aur itni mohabbat ke baad bhi kismat ne tumhe meri zindagi mein likhna manzoor nahi kiya, toh main allah jaise kre ab mai kar hi kya sakte.</p>
+                  <p class="card-3-p">Lekin agar itni koshishon, itni duaon aur itni mohabbat ke baad bhi kismat ne
+                    tumhe meri zindagi mein likhna manzoor nahi kiya, toh main allah jaise kre ab mai kar hi kya sakte.
+                  </p>
 
-                  <p class="card-3-p">Aur jab Jannat mein 72 hoor ki jagah bhi tum hi chye yrr..i love you so much ...please samjho mere baat ko... i love you that much no one can imagine , no can measure, mujhse khud iska jawab nhi pata,,,mai chah kar bhi bhula nhi paa rha ...you are my first and last love..</p>
+                  <p class="card-3-p">Aur jab Jannat mein 72 hoor ki jagah bhi tum hi chye yrr..i love you so much
+                    ...please samjho mere baat ko... i love you that much no one can imagine , no can measure, mujhse
+                    khud iska jawab nhi pata,,,mai chah kar bhi bhula nhi paa rha ...you are my first and last love..
+                  </p>
 
-                  <p class="card-3-p">Mujhe nahi pata meri taqdeer mein kya likha hai, na hi main jaanta hoon ki meri dua kabool hogi ya nahi.<br />Duniya ke liye tum shayad ek insaan ho, lekin mere liye tum woh ehsaas ho jise main is duniya mein bhi khona nahi chahta aur aakhirat mein bhi maangna chahta hoon.<br />..please trust me i really love me ...please never be of someone..i am waiting for you.....</p>
+                  <p class="card-3-p">Mujhe nahi pata meri taqdeer mein kya likha hai, na hi main jaanta hoon ki meri
+                    dua kabool hogi ya nahi.<br />Duniya ke liye tum shayad ek insaan ho, lekin mere liye tum woh ehsaas
+                    ho jise main is duniya mein bhi khona nahi chahta aur aakhirat mein bhi maangna chahta
+                    hoon.<br />..please trust me i really love me ...please never be of someone..i am waiting for
+                    you.....</p>
                 </div>
               </div>
             </div>
@@ -2802,12 +3099,14 @@
     <section id="finale-section" class="section finale-section">
       <div class="container">
         <div class="finale-content">
-          <svg class="finale-heart-icon reveal-elem" aria-hidden="true"><use href="#icon-heart" /></svg>
+          <svg class="finale-heart-icon reveal-elem" aria-hidden="true">
+            <use href="#icon-heart" />
+          </svg>
           <p class="section-eyebrow reveal-elem">Always In My Prayers</p>
-          
+
           <!-- Exact Final Texts Required by Prompt -->
           <h2 class="finale-title reveal-elem">
-            To Uzma, with an infinite love and a lot of heartfelt wishes.
+            To Sadiya, with an infinite love and a lot of heartfelt wishes.
           </h2>
 
           <div class="romantic-divider reveal-elem" aria-hidden="true">
@@ -2823,24 +3122,36 @@
           <!-- ─────────────────────────────────────────────────────────
                INTERACTIVE LOVE CONFESSION: DO YOU WANT TO KNOW HOW MUCH I LOVED YOU????
                ───────────────────────────────────────────────────────── -->
-          <div id="love-depth-section" class="love-depth-container reveal-elem" style="margin: 2.5rem auto 3rem;" aria-label="A special message for Uzma">
+          <div id="love-depth-section" class="love-depth-container reveal-elem" style="margin: 2.5rem auto 3rem;"
+            aria-label="A special message for Sadiya">
             <div class="love-depth-card">
               <!-- Flower Corner Accents -->
-              <svg class="flower-corner flower-corner-tl" aria-hidden="true"><use href="#icon-rose-corner" /></svg>
-              <svg class="flower-corner flower-corner-tr" aria-hidden="true"><use href="#icon-rose-corner" /></svg>
-              <svg class="flower-corner flower-corner-bl" aria-hidden="true"><use href="#icon-rose-corner" /></svg>
-              <svg class="flower-corner flower-corner-br" aria-hidden="true"><use href="#icon-rose-corner" /></svg>
+              <svg class="flower-corner flower-corner-tl" aria-hidden="true">
+                <use href="#icon-rose-corner" />
+              </svg>
+              <svg class="flower-corner flower-corner-tr" aria-hidden="true">
+                <use href="#icon-rose-corner" />
+              </svg>
+              <svg class="flower-corner flower-corner-bl" aria-hidden="true">
+                <use href="#icon-rose-corner" />
+              </svg>
+              <svg class="flower-corner flower-corner-br" aria-hidden="true">
+                <use href="#icon-rose-corner" />
+              </svg>
 
               <!-- Glowing Center Heart -->
               <svg viewBox="0 0 24 24" class="love-depth-heart-icon" aria-hidden="true">
-                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="currentColor" />
+                <path
+                  d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                  fill="currentColor" />
               </svg>
 
               <p class="section-eyebrow">A Whisper From The Heart</p>
               <h2 class="love-depth-question">Do you want to know how much i loved you????</h2>
 
               <!-- Interactive Trigger Button -->
-              <button id="btn-love-depth" class="btn-tap-to-know" aria-expanded="false" aria-controls="love-depth-content">
+              <button id="btn-love-depth" class="btn-tap-to-know" aria-expanded="false"
+                aria-controls="love-depth-content">
                 <span>Tap to know ♡</span>
               </button>
 
@@ -2866,7 +3177,7 @@
 
           <!-- Final Celebration Button Required by Prompt -->
           <button id="btn-final-celebrate" class="btn-romantic reveal-elem">
-            <span>Keep Smiling, Uzma ♡</span>
+            <span>Keep Smiling, Sadiya ♡</span>
           </button>
         </div>
       </div>
@@ -2878,7 +3189,7 @@
     <footer class="site-footer">
       <div class="container">
         <p class="footer-text">
-          Happy Birthday, Uzma. May every day bring you smiles and peace.
+          Happy Birthday, Sadiya. May every day bring you smiles and peace.
         </p>
         <p class="footer-sub">
           Made With Warmth, Affection & Sincere Prayers &bull; Always
@@ -2972,7 +3283,7 @@
         if (entered === PASSCODE) {
           isUnlocked = true;
           if (lockFeedback) {
-            lockFeedback.textContent = 'Passcode accepted! Welcome, Uzma 💖';
+            lockFeedback.textContent = 'Passcode accepted! Welcome, Sadiya 💖';
             lockFeedback.classList.add('success');
           }
           if (lockStatusIcon) {
@@ -3781,9 +4092,9 @@
 
         playChimeHarmonic();
 
-        btnFinalCelebrate.innerHTML = '<span>Always Smiling, Uzma ❤️</span>';
+        btnFinalCelebrate.innerHTML = '<span>Always Smiling, Sadiya ❤️</span>';
         setTimeout(function () {
-          btnFinalCelebrate.innerHTML = '<span>Keep Smiling, Uzma ♡</span>';
+          btnFinalCelebrate.innerHTML = '<span>Keep Smiling, Sadiya ♡</span>';
         }, 4000);
       }
 
